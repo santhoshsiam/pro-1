@@ -1,0 +1,1056 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+:root{
+    --blue:#0D0D2B;
+}
+.bg-color{
+    background-color: var(--blue);
+}
+.response{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+}
+.body{
+    overflow-x: hidden;
+}
+            /*header*/
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.navigation .logo{
+    display: flex;
+    align-items: center;
+}
+.navigation .logo a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    margin-left: 16px;
+}
+.navigation .nav-link{
+    display: flex;
+    align-items: center;
+}
+.navigation .nav-link li{
+    padding: 16px;
+}
+.navigation .nav-link li a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.navigation .login{
+    background: #3671E9;
+    border-radius: 32px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    padding: 14px 32px !important;
+    margin-left: 24px;
+    text-transform: capitalize; 
+}
+.navigation .bar{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 30px;
+    display: none;
+}
+.navigation .bar i{
+    color: #FFFFFF;
+}
+
+/*illustration*/
+.illustration{
+    padding: 60px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.illustration .content, .illustration .image{
+    width: 50%;
+}
+.illustration .content  span{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    padding: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    width: 60%;
+}
+.illustration .content span span{ 
+    color:black;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 4px 16px;
+    margin-right: 20px;
+}
+.illustration .content h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.illustration .content h1::first-letter{
+    text-transform: uppercase;
+}
+.illustration .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    margin-top: 30px;
+}
+.illustration .content p::first-letter{
+    text-transform: uppercase;
+}
+.illustration .content .link p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    background: #3671E9;
+    border-radius: 32px;
+    align-items: center;
+    color: #ffffff;
+    padding: 16px 16px 16px 24px;
+    width: 100%;
+    max-width: 202px;
+    text-align: center;
+}
+.illustration .content .link .free{
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #3671E9;
+}
+.illustration .content .link i{
+    background-color: #ffffff;
+    color: #0D0D2B;
+    padding: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+/*why-crappo*/
+.why-crappo{
+    padding: 60px 0;
+}
+            /*number*/
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.number .box{
+    display: flex;
+    align-items: center; 
+}
+.number .box .icon{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #3671E9;
+    font-size: 40px;
+    padding: 35px;
+}
+.number .title {
+    margin-left: 20px;
+}
+.number .title h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.number .title p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 00.01em;
+    color: #E0E0E0;
+    text-transform: capitalize;
+}
+            /*crappo*/
+.crappo{
+    display: flex;
+    align-items: center;
+    padding: 60px 0 0 0;
+}
+.crappo .image, .crappo .content{
+    width: 50%;
+}
+.crappo .content .con-with{
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+}
+.crappo .content h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.crappo .content h2 span{
+    text-transform: uppercase;
+}
+.crappo .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 00.01em;
+    color: #E0E0E0;
+    margin-top: 20px;
+}
+.crappo .btn {
+    margin-top: 40px;
+}
+.crappo .btn a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 24px;
+    text-transform: capitalize;
+}
+/*trade-securely*/
+.trade-securely{
+    position: relative;
+}
+            /*check*/
+.check{
+    text-align: center;
+    background: #0D0D2B;
+    padding-bottom: 260px;
+    padding-top: 95px;
+}
+.check h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.check h2::first-letter{
+    text-transform: capitalize;
+}
+.check p{
+    margin-top: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #E0E0E0;
+    max-width: 622px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*trade*/
+.trade .rate{
+    position: absolute;
+    left: 50%;
+    top: 330px;
+    width: 100%;
+    max-width: 942px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    padding: 40px;
+    transform: translateX(-50%);
+}
+.trade .login form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trade .login #text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+    border: none;
+    border-bottom: 1px solid #0D0D2B;
+    width: 100%;
+    max-width: 400px;
+}
+.trade .login #dropdown{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+    border: none;
+    border-bottom: 1px solid #0D0D2b;
+    width: 100%;
+    max-width: 200px;
+    outline: none;
+}
+.trade .login #button{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 32px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+}
+.trade .revenue{
+   margin-top: 40px;
+}
+.trade .revenue :nth-child(1){
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 00.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+.trade .revenue :nth-child(2){
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 00.04em;
+    color: #0D0D2B;
+}
+.trade .revenue :nth-child(3){
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 00.01em;
+    color: #828282;
+}
+            /*crypto*/
+.crypto{
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+}
+.crypto h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #0D0D2B;
+    text-align: center;
+    width: 100%;
+    max-width: 741px;
+    margin: 0 auto;
+}
+.crypto h2::first-letter{
+    text-transform: capitalize;
+}
+.crypto .boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.crypto .boxs .box{
+    width: 33%;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    align-items: center;
+}
+.crypto .boxs .content{
+    padding: 45px 24px;
+    text-align: center;
+}
+.crypto .boxs .content .image{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.crypto .boxs .content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0D0D2B;
+    text-transform: capitalize;
+    position: relative;
+}
+.crypto .boxs .content span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    position: absolute;
+    top: 10px;
+}
+.crypto .boxs .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 00.01em;
+    color: #828282;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 332px;
+}
+.crypto .boxs .content p::first-letter{
+    text-transform: capitalize;
+}
+.crypto .content .icon{
+    margin-top:25px;
+}
+.crypto .content .icon a{
+    background: #3671E9;
+    border-radius: 32px;  
+    padding: 16px 16px 16px 24px; 
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+}
+.crypto .content .icon a::first-letter{
+    text-transform: capitalize;
+}
+/*feature secion*/
+.feaure-color{
+    background-color: #2B076E;
+}
+                /*invest*/
+.invest{
+   padding-top: 90px;
+}             
+.invest h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    max-width: 758px;
+    margin: 0 auto;
+}
+.invest h2::first-letter{
+    text-transform: capitalize;
+}
+.invest .boxs{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.invest .boxs .content{
+    width: 50%;
+}
+.invest .boxs .image{
+    width: 50%;
+}
+.invest .boxs .content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.invest .boxs .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01rem;
+    color: #E0E0E0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 408px;
+}
+.invest .boxs .content .btn{
+    margin-top: 30px;
+}
+.invest .boxs .content .btn a{
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 32px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+                /*tatistics*/
+.tatistics{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.tatistics .left-content{
+    width: 50%;
+}
+.tatistics .right-content{
+    width: 50%;
+}
+.tatistics .right-content .box{
+    width: 100%;
+    max-width: 456px;
+    margin: auto;
+}
+.tatistics .right-content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.tatistics .right-content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01rem;
+    color: #E0E0E0;
+    margin-top: 20px;
+}
+.tatistics .right-content .btn{
+    margin-top: 35px; 
+}
+.tatistics .right-content .btn a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 31px;
+}
+/*grow*/
+.grow{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 90px;
+}
+.grow .right-content{
+    width: 50%;
+}
+.grow .left-content{
+    width: 50%;
+}
+.grow .left-content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+    width: 100%;
+    max-width: 454px;
+}
+.grow .left-content h3::first-letter{
+    text-transform: capitalize;
+}
+.grow .left-content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01rem;
+    color: #E0E0E0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 408px;
+}
+.grow .left-content .btn{
+    margin-top: 35px;
+}
+.grow .left-content .btn a{
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 32px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+/*start mining section*/
+.start-mining{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+            /*start*/
+.start-mining{
+    padding: 80px 0;
+}
+.start{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #3671E9;
+    border-radius: 16px;
+    padding: 40px;
+}
+.start .content{
+    width: 50%;
+}
+.start .login{
+    width: 50%;
+}
+.start .content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.start .content h3::first-letter{
+    text-transform: capitalize;
+}
+.start .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 348px;
+}
+.start .content p span{
+    text-transform: uppercase;
+}
+.start .login{
+    margin: auto 0;
+}
+.start .login .forms{
+    display: flex;
+}
+.start .login .forms #email{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 00.01em;
+    color: #FFFFFF;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    max-width: 350px;
+}
+.start .login .forms #button{
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 14px 32px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+    outline: none;
+    border: 0px;
+    margin:auto;
+}
+/*fooder section*/
+.fooder{
+    padding: 40px 0 0 20px;
+}
+.fooder .top {
+    display: flex;
+    justify-content: space-between;
+}
+.fooder .top .logo{
+    display: flex;
+}
+.fooder .top .logo p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 00.04em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 15px;
+    text-align: center;
+}
+.fooder .top .ulass p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.fooder .top .ulass p::first-letter{
+    text-transform: capitalize;
+}
+.fooder .top .ulass li{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    color: #E0E0E0;
+}
+.fooder .top .ulass li::first-letter{
+    text-transform: capitalize;
+}
+.fooder .top .payment .content{
+    width: 100%;
+    max-width: 335px;
+}
+.fooder .top .payment .content p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.fooder .top .payment .content p::first-letter{
+    text-transform: capitalize;
+}
+.fooder .top .payment .content .payments{
+    margin-top: 25px;
+}
+.fooder .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.fooder .bottom .title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 00.01em;
+    color: #ffffff;
+}
+.fooder .bottom .title span{
+    text-transform: uppercase;
+}
+.fooder .bottom .social{
+    display: flex;
+}
+.fooder .bottom .icon{
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+}
+                /*end*/
+
+
+/*-----------------------media quary----------------------*/
+                /*tab*/
+@media only screen and (max-width: 1024px) {
+    /*navigation*/
+.navigation .nav-link{
+    display: none; 
+}
+.navigation .nav-link li{
+    margin-top: 10px;
+}
+.navigation .nav-link.navshow{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    flex-direction: column;
+    background-color:#0D0D2B;
+    text-align: center;
+    z-index: 10;
+}
+.navigation .bar{
+    display: block;
+    color: #ffffff;
+}
+/*.illustration*/
+.illustration{
+    flex-wrap: wrap;
+}
+.illustration .content{
+    width: 100%;
+}
+.illustration .image{
+    margin-top: 20px;
+    width: 100%;
+}
+/*.number*/
+.number{
+    flex-wrap: wrap;
+}
+.number .box{
+    width: 100%;
+    margin-top: 20px;
+}
+/*.crappo*/
+.crappo{
+    flex-wrap: wrap;
+}
+.crappo .image{
+    width: 100%;
+} 
+.crappo .content{
+    width: 100%;
+    margin-top: 30px;
+}
+.crappo .content .con-with{
+    margin: 0;
+}
+/*trade*/
+.trade .rate .login form{
+    flex-wrap: wrap;
+}
+.trade .rate .login form #button{
+    margin-top: 20px;
+}
+.crypto .boxs{
+    flex-wrap: wrap;
+}
+.crypto .boxs .box{
+    width: 100%;
+}
+.crypto .boxs .box p{
+    margin: auto;
+}
+/*invest*/
+.invest .boxs{
+    flex-wrap: wrap;
+}
+.invest .boxs .content{
+    width: 100%;
+    margin: auto;
+}
+.invest .boxs .image{
+    width: 100%;
+    margin-top: 40px;
+}
+.tatistics{
+    flex-wrap: wrap;
+}
+.tatistics .left-content{
+    width: 100%;
+}
+.tatistics .right-content{
+    width: 100%;
+    margin-top: 40px;
+}
+.tatistics .right-content .box{
+    margin: 0;
+}
+/*.grow*/
+.grow{
+    flex-wrap: wrap;
+}
+.grow .right-content{
+    width: 100%;
+    margin-top: 50px;
+}
+.grow .left-content{
+    width: 100%;
+}
+/*start*/
+.start{
+    flex-wrap: wrap;
+}
+.start .content{
+    width: 100%;
+}
+.start .login{
+    width: 100%;
+    margin-top:20px ;
+}
+/*fooder*/
+.fooder .top {
+    flex-wrap: wrap;
+}
+.fooder .top .payment{
+    margin: auto;
+    width: 100%;
+}
+.fooder .top .payment .content{
+    margin: 10px auto 0; 
+}
+
+}
+  /*-------------mobile--------------*/
+@media only screen and (max-width: 420px){
+/*crappo*/
+.crappo .content .con-with{
+    margin-left: 0;
+}
+/*illustration*/
+.illustration .content span{
+    font-size: 10px;
+}
+.illustration .content span span{
+    font-size: 10px;
+}
+.illustration .content h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+/*check*/
+
+/*trade*/
+.trade .login #dropdown{
+    margin-top: 30px;
+}
+.trade .login #button{ 
+    margin-top: 30px;
+}
+.tatistics .right-content .box{
+    margin-left: 0;
+}
+/*crypto*/
+.crypto h2{
+    font-size: 30px;
+    line-height: 50px;
+}
+/*invest*/
+.invest h2{
+    font-size: 30px;
+    line-height: 50px;
+}
+/*start*/
+.start .login .forms{
+    flex-wrap: wrap;
+}
+.start .login .forms #button{
+    margin:  20px auto;
+}
+/*fooder-top*/
+.fooder .top .logo{
+    width: 100%;
+}
+.fooder .top .ulass{
+    width: 100%;
+    margin-top: 40px;
+}
+.fooder .top .payment{
+    width: 100%;
+}
+/*fooder-bottom*/
+.fooder .bottom{
+    flex-wrap: wrap;
+}
+.fooder .bottom .title{
+    width: 100%;
+}
+.fooder .bottom .social{
+    width: 100%;
+    margin-top: 20px;
+}
+}
+
+
+
+
+
+                
+                    
